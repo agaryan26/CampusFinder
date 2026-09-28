@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusFind</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <main class="app" id="app">
+      <header class="header">
+        <div class="brand">
+          <div class="brand-icon">⌕</div>
+          <span>CampusFind</span>
+        </div>
+        <button class="icon-button notification-button" id="notificationBtn" aria-label="Notifications">
+          ♧<span class="badge hidden" id="notificationBadge">0</span>
+        </button>
+      </header>
+
+      <section class="content" id="content"></section>
+      <nav class="bottom-nav" id="bottomNav"></nav>
+      <div id="overlay"></div>
+      <div class="toast" id="toast"></div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
